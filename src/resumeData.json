@@ -1,0 +1,144 @@
+{
+  "main": {
+    "name": "Mae Zhang",
+    "occupation": "Electrical and Computer Engineering",
+    "description": "I'm an undergraduate student at Carnegie Mellon University, expected to graduate in 2023. My cool boss Sean Keenan helped me with this website!",
+    "image": "profilepic.jpg",
+    "bio": "I enjoy playing board/card games, hiking, reading, and crosstitching.",
+    "contactmessage": "Feel free to contact me!",
+    "email": "maez@andrew.cmu.edu",
+    "phone": "520-784-4654",
+    "website": "http://www.timbakerdev.com",
+    "resumeDownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/mae.zhang.7549/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/mae-zhang-65b7971ab/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/maezhang.turtles/?hl=en",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/maezhang",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "Carnegie Mellon University",
+        "degree": "Bachelors in Electrical and Computer Engineering",
+        "graduated": "August 2019-present",
+        "description": "At CMU, I've pushed myself to become a more proficient coder, as well as explore the hardware aspect of ECE. Outside of academia, I indulge in my love of puzzles as a member of Puzzlehunt and am trying entirely new things such as ballroom dancing and mechanicing for CIA Buggy."
+      },
+      {
+        "school": "University High School",
+        "degree": "High School Diploma",
+        "graduated": "May 2019",
+        "description": "Music was an instrumental part of my high school experience. As a piano player and percussion captain in my high school band, music not only channeled my creativity and persistance, but boosted by ability to lead and work well with others. Music nerds rejoice!"
+      }
+    ],
+    "work": [
+      {
+        "company": "Supportchef",
+        "title": "Intern",
+        "years": "May 2020 - Present",
+        "description": "Supportchef is a drag and drop app builder website currently being developed by Sean Keenan and co. I worked on the Styling page, which allows app builders to customize their themes, colors, and fonts. Through this project, I was introduced to JavaScript, ReactJS, HTML, CSS, and other JavaScript libraries."
+      },
+      {
+        "company": "University of Arizona",
+        "title": "Research Intern",
+        "years": "August 2018 - April 2019",
+        "description": "Produced potential compounds to inhibit the transcription factor NRF2, increasing effects of chemotherapy. Implemented purification techniques such as thin layer chromatography and column chromatography."
+      }
+    ],
+    "skills": [
+      {
+        "name": "C Programming",
+        "level": "70%"
+      },
+      {
+        "name": "CSS",
+        "level": "20%"
+      },
+      {
+        "name": "HTML",
+        "level": "20%"
+      },
+      {
+        "name": "Java",
+        "level": "35%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "35%"
+      },
+      {
+        "name": "ReactJS",
+        "level": "20%"
+      },
+      {
+        "name": "Python",
+        "level": "30%"
+      },
+      {
+        "name": "Survivor Fan",
+        "level": "100%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "MAE IS A-MAE-ZING. U SHULD HIGHER HER. U WILL BE A-MAE-ZED",
+        "user": "Sean Keenan"
+      }
+    ]
+  }
+}
