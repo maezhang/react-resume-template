@@ -2,14 +2,14 @@
   "main": {
     "name": "Mae Zhang",
     "occupation": "Electrical and Computer Engineering",
-    "description": "I'm an undergraduate student at Carnegie Mellon University, expected to graduate in 2023. My cool boss Sean Keenan helped me with this website!",
+    "description": "I'm an undergraduate student at Carnegie Mellon University, expected to graduate in 2023. Learn more about me and my projects here!",
     "image": "profilepic.jpg",
-    "bio": "I enjoy playing board/card games, hiking, reading, and crosstitching.",
+    "bio": "I am an adventurous nerd who likes to learn and explore new things. As an engineer, I strive to not only produce solutions, but also continue to improve them as I push my own boundaries. In my free time, I love to solve puzzles, play board games, and hike.",
     "contactmessage": "Feel free to contact me!",
     "email": "maez@andrew.cmu.edu",
     "phone": "520-784-4654",
     "website": "https://www.maezhang.com",
-    "resumeDownload": "https://maezhang.com",
+    "resumeDownload": "https://drive.google.com/file/d/1CdlIoDVB0T2_-eNKiw8WyLTX22UrHFwe/view?usp=sharing",
     "social": [
       {
         "name": "facebook",

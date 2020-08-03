@@ -1,3 +1,15 @@
+# Mae's personal website
+
+## Instructions to run locally
+```
+npm install
+npm start
+```
+
+## Instructions on how to deploy
+
+
+
 # React JS Resume Web App Template      
 ![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true "ReactJS Resume Website Template")
 ### <a href="https://react-resume-template.herokuapp.com/">LIVE DEMO</a> 
@@ -23,7 +35,6 @@ To populate the website with all of your own data, open the public/resumeData.js
 Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling changes, feel free!
 ### 7. Enjoy your new Resume Website
 When you're all done, run `npm start` again and you'll see your new personal resume website! Congratulations!
-
 
 ## Credits
 ##### Udemy Course
