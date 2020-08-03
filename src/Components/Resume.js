@@ -27,9 +27,22 @@ class Resume extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                American Chemical Society paper
+                Click here to read the paper
               </a>
-              .
+            </span>
+          );
+        }
+        if (work.company === "SupportChef") {
+          description = (
+            <span>
+              {description}
+              <a
+                href="https://supportchef.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click here to visit SupportChef
+              </a>
             </span>
           );
         }
