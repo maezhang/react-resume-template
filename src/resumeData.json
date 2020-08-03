@@ -41,27 +41,27 @@
         "school": "Carnegie Mellon University",
         "degree": "Bachelors in Electrical and Computer Engineering",
         "graduated": "August 2019-present",
-        "description": "At CMU, I've pushed myself to become a more proficient coder, as well as explore the hardware aspect of ECE. Outside of academia, I indulge in my love of puzzles as a member of Puzzlehunt and am trying entirely new things such as ballroom dancing and mechanicing for CIA Buggy."
+        "description": "CMU provides opportunity for me to grow in many aspects of my life. My experiences thus far have strengthened my passion and proficiency in programming and allowed me to explore hardware for the first time with hands-on experience. Outside of academia, I indulge in puzzle-solving as a member of Puzzlehunt, build buggies for CIA Buggy, and cha-cha my way across the dance floor in Ballroom Dance Club."
       },
       {
         "school": "University High School",
         "degree": "High School Diploma",
         "graduated": "May 2019",
-        "description": "Music was an instrumental part of my high school experience. As a piano player and percussion captain in my high school band, music not only channeled my creativity and persistance, but boosted by ability to lead and work well with others. Music nerds rejoice!"
+        "description": "I am lucky to have been in an environment where students are actively engaged in learning and their community. Through debating with my peers, competing in intense math competitions, and creating fond memories as the Percussion Captain of my marching band, I transitioned into a more confident and open-minded individual."
       }
     ],
     "work": [
       {
-        "company": "Supportchef",
-        "title": "Intern",
+        "company": "SupportChef",
+        "title": "Programming Intern",
         "years": "May 2020 - Present",
-        "description": "Supportchef is a drag and drop app builder website currently being developed by Sean Keenan and co. I worked on the Styling page, which allows app builders to customize their themes, colors, and fonts. Through this project, I was introduced to JavaScript, ReactJS, HTML, CSS, and other JavaScript libraries."
+        "description": "SupportChef is a drag and drop app builder whose content can be integrated into an existing app. Using JavaScript, ReactJS, CSS, and other libraries, I developed many front end features such as the styling page where users can customize their app’s colors and fonts and the responses page where users can see all the data that was submitted through their app. This experience sparked a profound interest in website development for me, as it allowed me to fully appreciate the process of creating a website and the user interface of the finished product."
       },
       {
         "company": "University of Arizona",
         "title": "Research Intern",
         "years": "August 2018 - April 2019",
-        "description": "Produced potential compounds to inhibit the transcription factor NRF2, increasing effects of chemotherapy. Implemented purification techniques such as thin layer chromatography and column chromatography."
+        "description": "NRF2 is a transcription factor that reduces oxidative stress in healthy cells but was found to promote chemoresistance in cancer cells. Our goal at the Chapman lab was to produce potential compounds to inhibit the transcription factor NRF2 to increase the effects of chemotherapy. I implemented purification techniques such as thin layer chromatography and column chromatography to create such compounds that would be potent enough to inhibit NRF2 on a large scale. I won 3rd place in Biochemistry at the Southern Arizona Research, Science, and Engineering Foundation competition and am a co-author of an "
       }
     ],
     "skills": [
@@ -83,7 +83,7 @@
       },
       {
         "name": "JavaScript",
-        "level": "35%"
+        "level": "70%"
       },
       {
         "name": "ReactJS",
@@ -91,7 +91,7 @@
       },
       {
         "name": "Python",
-        "level": "30%"
+        "level": "35%"
       },
       {
         "name": "Survivor Fan",
