@@ -1,9 +1,24 @@
 import React, { Component } from "react";
+import styled from "@emotion/styled";
+
+const SkillContainer = styled.div`
+  display: flex;
+`;
+
+const CodeSkillContentCSS = styled.ul`
+  padding-right: 15px;
+  flex-basis: 50%;
+`;
+
+const WebSkillContentCSS = styled.ul`
+  padding-left: 15px;
+  flex-basis: 50%;
+`;
 
 class Resume extends Component {
   render() {
     if (this.props.data) {
-      var skillmessage = this.props.data.skillmessage;
+      // var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function (education) {
         return (
           <div key={education.school}>
@@ -57,7 +72,22 @@ class Resume extends Component {
           </div>
         );
       });
-      var skills = this.props.data.skills.map(function (skills) {
+      var codeSkills = this.props.data.skills.filter((skill) => {
+        return skill.type === "language";
+      });
+      var webSkills = this.props.data.skills.filter((skill) => {
+        return skill.type === "web";
+      });
+      var codeSkillContent = codeSkills.map(function (skills) {
+        var className = "bar-expand " + skills.name.toLowerCase();
+        return (
+          <li key={skills.name}>
+            <span style={{ width: skills.level }} className={className}></span>
+            <em>{skills.name}</em>
+          </li>
+        );
+      });
+      var webSkillContent = webSkills.map(function (skills) {
         var className = "bar-expand " + skills.name.toLowerCase();
         return (
           <li key={skills.name}>
@@ -102,11 +132,16 @@ class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <p>{skillmessage}</p>
-
-            <div className="bars">
-              <ul className="skills">{skills}</ul>
-            </div>
+            <SkillContainer className="bars">
+              <CodeSkillContentCSS className="skills">
+                <br />
+                {codeSkillContent}
+              </CodeSkillContentCSS>
+              <WebSkillContentCSS className="skills">
+                <br />
+                {webSkillContent}
+              </WebSkillContentCSS>
+            </SkillContainer>
           </div>
         </div>
       </section>

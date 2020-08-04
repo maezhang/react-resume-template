@@ -1,6 +1,27 @@
 import React, { Component } from "react";
 
 class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+      mailSent: false,
+      error: null,
+    };
+  }
+
+  handleFormSubmit = (event) => {
+    event.preventDefault();
+    console.log(this.state);
+  };
+
+  handleChange = (state) => (e) => {
+    this.setState({ [state]: e.target.value });
+  };
+
   render() {
     if (this.props.data) {
       // var name = this.props.data.name;
@@ -41,7 +62,7 @@ class Contact extends Component {
                     size="35"
                     id="contactName"
                     name="contactName"
-                    onChange={this.handleChange}
+                    onChange={this.handleChange("name")}
                   />
                 </div>
 
@@ -55,7 +76,7 @@ class Contact extends Component {
                     size="35"
                     id="contactEmail"
                     name="contactEmail"
-                    onChange={this.handleChange}
+                    onChange={this.handleChange("email")}
                   />
                 </div>
 
@@ -67,7 +88,7 @@ class Contact extends Component {
                     size="35"
                     id="contactSubject"
                     name="contactSubject"
-                    onChange={this.handleChange}
+                    onChange={this.handleChange("subject")}
                   />
                 </div>
 
@@ -80,14 +101,17 @@ class Contact extends Component {
                     rows="15"
                     id="contactMessage"
                     name="contactMessage"
+                    onChange={this.handleChange("message")}
                   ></textarea>
                 </div>
 
                 <div>
-                  <button className="submit">Submit</button>
-                  <span id="image-loader">
+                  <button className="submit" onClick={this.handleFormSubmit}>
+                    Submit
+                  </button>
+                  {/* <span id="image-loader">
                     <img alt="" src="images/loader.gif" />
-                  </span>
+                  </span> */}
                 </div>
               </fieldset>
             </form>
@@ -99,8 +123,8 @@ class Contact extends Component {
             </div>
           </div>
 
-          <aside className="four columns footer-widgets">
-            {/* <div className="widget widget_contact">
+          {/* <aside className="four columns footer-widgets">
+            <div className="widget widget_contact">
               <h4>Address and Phone</h4>
               <p className="address">
                 {name}
@@ -110,9 +134,9 @@ class Contact extends Component {
                 <br />
                 <span>{phone}</span>
               </p>
-            </div> */}
+            </div>
 
-            {/* <div className="widget widget_tweets">
+            <div className="widget widget_tweets">
               <h4 className="widget-title">Latest Tweets</h4>
               <ul id="twitter">
                 <li>
@@ -139,8 +163,8 @@ class Contact extends Component {
                   </b>
                 </li>
               </ul>
-            </div> */}
-          </aside>
+            </div>
+          </aside> */}
         </div>
       </section>
     );

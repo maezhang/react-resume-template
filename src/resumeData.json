@@ -67,35 +67,38 @@
     "skills": [
       {
         "name": "C Programming",
-        "level": "70%"
+        "level": "70%",
+        "type": "language"
       },
       {
         "name": "CSS",
-        "level": "20%"
+        "level": "30%",
+        "type": "web"
       },
       {
         "name": "HTML",
-        "level": "20%"
+        "level": "50%",
+        "type": "web"
       },
       {
         "name": "Java",
-        "level": "35%"
+        "level": "35%",
+        "type": "language"
       },
       {
         "name": "JavaScript",
-        "level": "70%"
+        "level": "70%",
+        "type": "language"
       },
       {
         "name": "ReactJS",
-        "level": "20%"
+        "level": "50%",
+        "type": "web"
       },
       {
         "name": "Python",
-        "level": "35%"
-      },
-      {
-        "name": "Survivor Fan",
-        "level": "100%"
+        "level": "35%",
+        "type": "language"
       }
     ]
   },
