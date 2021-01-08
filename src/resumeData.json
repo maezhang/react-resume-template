@@ -40,8 +40,8 @@
       {
         "school": "Carnegie Mellon University",
         "degree": "Bachelors in Electrical and Computer Engineering",
-        "graduated": "August 2019-present",
-        "description": "CMU provides opportunity for me to grow in many aspects of my life. My experiences thus far have strengthened my passion and proficiency in programming and allowed me to explore hardware for the first time with hands-on experience. Outside of academia, I indulge in puzzle-solving as a member of Puzzlehunt, build buggies for CIA Buggy, and cha-cha my way across the dance floor in Ballroom Dance Club."
+        "graduated": "August 2019 - present",
+        "description": "CMU provides opportunity for me to grow in many aspects of my life. My experiences thus far have strengthened my passion and proficiency in programming and allowed me to explore hardware for the first time with hands-on experience. Outside of academia, I indulge in puzzle-solving as a member of Puzzlehunt, build buggies for CIA Buggy, and waltz across the dance floor in Ballroom Dance Club."
       },
       {
         "school": "University High School",
@@ -139,8 +139,8 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "MAE IS A-MAE-ZING. U SHULD HIGHER HER. U WILL BE A-MAE-ZED",
-        "user": "Sean Keenan"
+        "text": "",
+        "user": ""
       }
     ]
   }

@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import axios from "axios";
+
+const API_PATH =
+  "http://localhost:3000/Documents/website/react-resume-template/public/index.php";
 
 class Contact extends Component {
   constructor(props) {
@@ -13,9 +17,21 @@ class Contact extends Component {
     };
   }
 
-  handleFormSubmit = (event) => {
-    event.preventDefault();
-    console.log(this.state);
+  handleFormSubmit = (e) => {
+    e.preventDefault();
+    axios({
+      method: "post",
+      url: `${API_PATH}`,
+      headers: { "content-type": "application/json" },
+      data: this.state,
+    })
+      .then((result) => {
+        console.log("mailSent", this.state.mailSent);
+        this.setState({
+          mailSent: result.data.sent,
+        });
+      })
+      .catch((error) => this.setState({ error: error.message }));
   };
 
   handleChange = (state) => (e) => {
@@ -114,6 +130,9 @@ class Contact extends Component {
                   </span> */}
                 </div>
               </fieldset>
+              <div>
+                {this.state.mailSent && <div>Thank you for contcting us.</div>}
+              </div>
             </form>
 
             <div id="message-warning"> Error boy</div>
